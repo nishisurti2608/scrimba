@@ -1,0 +1,65 @@
+html{
+font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    color: #2b283a;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+
+}
+
+
+/* typography */
+
+h2{
+   font-size: 2.4rem;
+   margin-top: 0;
+}
+
+p{
+   font-size: 1.6rem;
+}
+
+h1{
+   font-size: 3.6rem ;
+   color: whitesmoke;
+   margin: 0;
+   
+}
+h3{
+font-size: 2rem;
+color: #d0aaff;
+margin: 0;
+}
+
+/* layout */
+
+section{
+   padding: 45px 0px;
+}
+
+
+
+.container{
+   width: 620px;
+   margin: 0 auto;
+}
+.sneaker-img{
+width: 100%;}
+
+/* links */
+
+
+a{
+   color: #ef5839;
+   text-decoration: underline dotted;
+}
+
+a:hover, a:active{
+
+   color: #d4b44c;
+
+
+}
