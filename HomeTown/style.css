@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#hero{
+  
+    background-image: url("https://images.unsplash.com/photo-1570605505301-0f713202ca7a?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 500px;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+#activities{
+    height: 500px;
+    background-color: #d7e3fc;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#guide{
+    height: 500px;
+    background-color: #e2eafc;
+}
+
+#card{
+    background-color: #d7e3fc;
+    padding: 20px;
+    height: 250px;
+    width: 400px;
+   margin: 80px auto;
+   border-radius: 30px;
+   display: flex;
+}
+
+.avtar{
+    width: 150px;
+    border-radius:50px;
+    height: 250px;
+    object-fit: cover;
+   margin-right: 35px;
+}
+/* typography */
+
+h1,h2{
+    color:#004e98;
+
+    text-align: center;
+
+    background-color: rgba(171, 196, 255, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+h3{
+    color:#004e98;
+    text-align: center;
+
+ 
+}
+
+h4{
+    color: #2f6690;
+    
+}
+
+p{
+    color: #004e98 ;
+    font-size: 15px;
+}
+
+
+.all-activities{
+    display: flex;
+    justify-content: space-around;
+   
+    margin-top: 40px;
+}
+.activity{
+    width: 198px;
+    text-align: center;
+    border: 2px solid #004e98;
+    padding: 20px;
+    border-radius: 50px;
+ 
+    
+}
+
+.activity-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   object-fit: cover;
+}
+
+footer{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7e3fc;
+  
+    color: #004e98;
+
+    
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #03045e;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.3;
+
+}
